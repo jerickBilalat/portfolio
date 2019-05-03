@@ -1,0 +1,47 @@
+<!-- Page Heading -->
+
+<!-- Page Heading/Breadcrumbs -->
+<h1 class="mt-4 mb-3">
+  Portfolio
+  <small>Page 2</small>
+</h1>
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="index.html">Home</a>
+  </li>
+  <li class="breadcrumb-item">
+    <a href="index.html">Page 1</a>
+  </li>
+  <li class="breadcrumb-item active">Page 2</li>
+</ol>
+
+<div class="row">
+  <% for(var i=4; i < projectList.length; i++) {%>
+  <div class="col-lg-6 portfolio-item">
+    <div class="card h-100">
+      <a href="<%= projectList[i].projectPageLink %>"
+        ><img class="card-img-top" src="<%= projectList[i].projectImgSrc700x300 %>" alt=""
+      /></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a href="<%= projectList[i].projectPageLink %>"
+            ><%= projectList[i].projectTitle %></a
+          >
+        </h4>
+        <p class="card-text"><%= projectList[i].projectDescription %></p>
+      </div>
+    </div>
+  </div>
+  <% } %>
+</div>
+
+<!-- Pagination -->
+<ul class="pagination pagination-lg justify-content-center">
+  <li class="page-item">
+    <a class="page-link" href="index.html">1</a>
+  </li>
+  <li class="page-item disabled">
+    <a class="page-link" href="#" tabindex="-1">2</a>
+  </li>
+</ul>

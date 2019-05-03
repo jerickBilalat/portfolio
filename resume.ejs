@@ -1,0 +1,124 @@
+<nav class="Navbar">
+    <div class="l-Wrapper l-Wrapper--reset@sm-down">
+      <ul class="u-pullRight u-hidden@xs-down">
+        <li>
+          <a class="Navbar-btn Navbar-btn--main" href="jerick_bilalat_resume.pdf" target="_blank">Download 
+            <span>(pdf)</span>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="index.html">Back to Web Portfolio</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <article class="l-Wrapper">
+  
+    <div class="l-Header">
+      <div class="l-Header-col">
+        <a href="<%= authorSiteLink %>" target="_blank">
+          <h1 class="Title">
+            <span class="u-shadow">
+              Jerick <br> Bilalat
+            </span>
+            <span class="Title-sub"><%= authorTitle %></span>
+          </h1>
+        </a>
+      </div>
+      <div class="l-Header-col Contact">
+        <div><%= addressCity %>%></div>
+        <div><a class="u-link" href="<%= authorSiteLink %>" target="_blank">www.jerickbilalat.com</a></div>
+        <div><a class="u-link" href="<%= authorLinkedIn %>" target="_blank">linkedin.com/in/jerickbilalat</a></div>
+        <div><a class="u-link" href="<%= authorGithub %>" target="_blank">github.com/jerickBilalat</a></div>
+        <div><a class="u-link" href="mailto:<%= authorEmail %>" target="_blank"><%= authorEmail %></a></div>
+      </div>
+    </div>
+  
+    <section class="l-Section">
+      <h2 class="l-Section-title h3 u-hidden@sm-down">Profile</h2>
+      <div class="l-Section-content">
+        <p><%= authorProfile %></p>
+      </div>
+    </section>
+  
+    <section class="l-Section">
+      <h2 class="l-Section-title h3">Skills</h2>
+      <div class="l-Section-content">
+        <ul>
+          <li>Most proficient with <strong class="Tag">JavaScript</strong>, <strong class="Tag">React</strong>, <strong class="Tag">Redux</strong>, <strong class="Tag">Express JS</strong>.</li>
+          <li>Passionate about <strong class="Tag">React</strong> and it's ecosystem.</li>
+          <li>Experienced with <strong class="Tag">Single Page Application</strong> and <strong class="Tag">RESTful API</strong> development.</li>
+          <li>Uses <strong class="Tag">Git</strong>, <strong class="Tag">Chrome Dev Tools</strong>, and <strong class="Tag">VS Code</strong></li>
+          <li>Familiar with <strong class="Tag">unit testing</strong> and <strong class="Tag">integration testing</strong> with <strong class="Tag">Jest</strong> and <strong class="Tag">Enzyme</strong>.</li>
+          <li>Knowledgeable about <strong class="Tag">User Experience</strong>, <strong class="Tag">Accessibility</strong>, <strong class="Tag">Performance</strong>,and <strong class="Tag">Responsive Web Development</strong> with a <strong class="Tag">Mobile First</strong>approach.</li>
+        </ul>
+      </div>
+    </section>
+  
+    <section class="l-Section">
+      <h2 class="l-Section-title h3">Experience</h2>
+      <div class="l-Section-content">
+
+        <% for(var i = 0; i < experienceList.length; i++) { %>
+          <h3><%= experienceList[i].jobTitle %></h3>
+          <a class="u-link" href="<%= experienceList[i].jobWebsite %>" target="_blank"><%= experienceList[i].jobCompany %>, <%= experienceList[i].employmentDates %></a>
+          <p>Contact: <%= experienceList[i].jobContact %></p>
+          <ul>
+            <% for(var j = 0; j < experienceList[i].jobDescription.length; j++) { %>
+              <li><%= experienceList[i].jobDescription[j] %></li>
+            <% } %>
+        </ul>
+        <% } %>
+  
+      </div>
+    </section>
+
+    <section class="l-Section">
+      <h2 class="l-Section-title h3">Projects</h2>
+      <div class="l-Section-content">
+
+        <% for(var i = 0; i < projectList.length; i++) { %>
+          <h3><%= projectList[i].projectLongTitle %></h3>
+          <a class="u-link" href="<%= projectList[i].projectDemoLink %>" target="_blank">Demo</a>
+          <% if (projectList[i].projectGitHub) {%>
+            <span> / </span><a class="u-link" href="<%= projectList[i].projectGitHub %>" target="_blank">Github</a>
+          <% } %>
+          <% if (projectList[i].projectHistory) {%>
+            <span> / </span><a class="u-link" href="<%= projectList[i].projectHistory %>" target="_blank">Agile Project History</a>
+          <% } %>
+          <ul>
+            <% for(var j = 0; j < projectList[i].projectDetails.length; j++) { %>
+              <li><%= projectList[i].projectDetails[j] %></li>
+            <% } %>
+        </ul>
+        <% } %>
+
+      </div>
+    </section>
+  
+    <section class="l-Section">
+      <h2 class="l-Section-title h3">Education</h2>
+      <div class="l-Section-content">
+        <h3>AS, Computer Science</h3>
+        <a class="u-link" href="http://www.normandale.edu/" target="_blank">Normandale College</a> <br> 2016 - 2017
+        <p>A full-time AS degree program that provides foundational knowledge in Programming Logic, Algorithm, Data Structures, Discrete Math, Hardware and Software Architectures.</p>
+        <h3>Onlince Courses</h3>
+        <a class="u-link" href="#" target="_blank">Treehouse, Code School, Udemy, Pluralsight</a> 
+        <p>Earned 1,762 Treehouse HTML and CSS course points, completed over 15 course in Code School, Pluralsight, Udemy, and FrontEnd Masters all related to web development.</p>
+        </div>
+    </section>
+  
+  </article>
+  
+  <div class="l-Wrapper u-keyline">
+    <div class="l-Footer">
+      <div class="l-Footer-col">
+        <strong>Resume Template Designed & Developed by S.Strieder</strong>
+      </div>
+      <div class="l-Footer-col Contact">
+        <a class="Tag" href="<%= authorSiteLink %>" target="_blank">jerickbilalat.com</a>
+        <a class="Tag" href="mailto:<%= authorEmail %>" target="_blank"><%= authorEmail %></a>
+      </div>
+    </div>
+  </div>

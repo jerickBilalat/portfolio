@@ -1,0 +1,111 @@
+{
+  "index": {
+    "pageTitle": "Portfolio",
+    "pageDescription": "Jerick Bilalat Portfolio"
+  },
+  "portfolio_page_2": {
+    "pageTitle": "Portfolio Page 2",
+    "pageDescription": "Jerick Bilalat Portfolio"
+  },
+  "portfolio_minnesota_recreation": {
+    "layout": "_project-layout",
+    "pageTitle": "MinnesotaRec Project",
+    "pageDescription": "MinnesotaRec eCommerce Website project by Jerick Bilalat",
+    "projectTitle": "MinnesotaRec",
+    "projectSubTitle": "",
+    "projectDescription": "Currently building Minnesota Recreation website to advertise and sell their products and services online.",
+    "projectImgSrc": "images/750x500_minrec.jpg",
+    "projectImgAltText": "A picture of Minnesota Recreation eCommerce Website",
+    "projectPageLink": "portfolio_minnesota_recreation.html",
+    "projectDemoLink": "http://minnesotarec.surge.sh",
+    "projectDetails": [
+      "Project composes of static pages and the two seed prototype projects found below.",
+      "Continuously being develop along with the two prototypes made to show the idea behind the whole project and gather feedback from end users.",
+      "Pages are static for SEO purposes and composes of single page eCommerce application for fast product browsing and checkout and single page admin panel for product CRUD operations.",
+      "See below prototype seed projects for more technical details."
+    ]
+  },
+  "portfolio_shop": {
+    "layout": "_project-layout",
+    "pageTitle": "eCommerce Website Prototype",
+    "pageDescription": "eCommerce SPA Prototype Project by Jerick Bilalat",
+    "projectTitle": "eCommerce Single Page Application",
+    "projectSubTitle": "",
+    "projectDescription": "A single page application prototype of an eCommerse site.",
+    "projectImgSrc": "images/750x500_shop.jpg",
+    "projectImgAltText": "A picture of a prototype of eCommerce single page application",
+    "projectPageLink": "portfolio_shop.html",
+    "projectDemoLink": "http://jrk-shop.surge.sh/",
+    "projectDetails": [
+      "Prototype includes essential features of an eCommerce site such as product list browsing, guest cart, and checkout.",
+      "Front End is built with React, React-Router, Redux state management, and a Bootstrap 3 HTML template from Themeforest.",
+      "RESTful API is built with Node/Express and MongoDB/Mongoose.",
+      "Axios library is used to help with fetching resources and Web LocalStorage API is used to build the guest car functionality.",
+      "Learned at lot about the react ecosystem and how web technologies are used together for fetching resources, client and server routing, and client state management."
+    ]
+  },
+  "portfolio_admin": {
+    "layout": "_project-layout",
+    "pageTitle": "Product Management Web Application",
+    "pageDescription": "Product Management Web Application SPA Prototype Project by Jerick Bilalat",
+    "projectTitle": "Product Management Web Application",
+    "projectSubTitle": "",
+    "projectDescription": "A prototype of a product management web application with a main feature of creating and modifying a list of products.",
+    "projectImgSrc": "images/750x500_admin.jpg",
+    "projectImgAltText": "A picture of a prototype of Product Management Web Application single page application",
+    "projectPageLink": "portfolio_admin.html",
+    "projectDemoLink": "http://shop-admin.surge.sh/",
+    "projectDetails": [
+      "Front End is built using React, React-Router, Redux State Management, and Material UI React Component library.",
+      "RESTful API is built with Node/Express and MongoDB/Mongoose.",
+      "Used Material UI React Component library for the sake of learning the popular libary, and the concept behind CSS-in-JS.",
+      "Applied Agile project management methology learned from Atlassian, creator of Jira, and using a Jira alternative, Pivotal Tracker, to manage the project."
+    ]
+  },
+  "portfolio_nlcf": {
+    "layout": "_project-layout",
+    "pageTitle": "NLCF Church",
+    "pageDescription": "Multi page website of the NLCF Church built to engage members and local community by sharing their ministries and media.",
+    "projectTitle": "NLCF Church Website",
+    "projectSubTitle": "",
+    "projectDescription": "Multi page website of the NLCF Church built to engage members and local community by sharing their ministries and media.",
+    "projectImgSrc": "images/750x500_nlcf.jpg",
+    "projectImgAltText": "A picture of NLCF Church website project",
+    "projectPageLink": "portfolio_nlcf.html",
+    "projectDemoLink": "http://www.newlifeinchristfellowship.com",
+    "projectDetails": [
+      "My very first web development project to apply knowledge after learning the fundamentals of HTML, CSS, JavaScript, reusable CSS, responsive web design, User Experience, and SEO.",
+      "Used Bourbon Framework's Grid System, jQuery for most of the UI, and Harp JS to automate the build process.",
+      "Learned the importance of understanding who is the target audience in making effective websites or applications."
+    ]
+  },
+  "portfolio_bootstrap_4_templates": {
+    "layout": "_project-layout",
+    "pageTitle": "Bootstrap 4 Template",
+    "pageDescription": "Bootstrap 4 HMTL template project by Jerick Bilalat",
+    "projectTitle": "Bootstrap 4 Template",
+    "projectSubTitle": "",
+    "projectDescription": "Bootstrap 4 HTML template for a business or portfolio websites.",
+    "projectImgSrc": "images/750x500_bootstrap.jpg",
+    "projectImgAltText": "A picture of Bootstrap 4 HTML templates for a business and portfolio websites.",
+    "projectPageLink": "portfolio_bootstrap_4_templates.html",
+    "projectDemoLink": "https://codepen.io/jrkcode/full/LOgpzE",
+    "projectDetails": [
+      "Built project to gain proficiency on Bootstrap 4 framework and how to design an effective homepage or landing page of a website.",
+      "The template is responsive and can be use as a template for a business or portfolio website."
+    ]
+  },
+  "resume": {
+    "pageTitle": "Resume",
+    "layout": "_resume-layout",
+    "pageDescription": "Portfolio Website of Jerick Bilalat"
+  },
+  "404": {
+    "pageTitle": "Error",
+    "pageDescription": "Portfolio Website of Jerick Bilalat"
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "pageDescription": "Portfolio Website of Jerick Bilalat"
+  }
+}

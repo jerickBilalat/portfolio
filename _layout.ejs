@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+  <!-- Google Web Fonts
+  ================================================== -->
+
+  <!-- Basic Page Needs
+  ================================================== -->
+
+  <title><%= pageTitle %> | <%= siteTitle %></title>
+  
+  <!--meta info-->
+  <meta charset="utf-8">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <%- partial("partial/_analytics") %>
+
+  <!-- Favicon Links
+  ============================================ -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Vendor CSS
+  ============================================ -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS theme files
+  ============================================ -->
+  <link href="css/1-col-portfolio.css" rel="stylesheet">
+  <link href="css/blog-home.css" rel="stylesheet">
+  <link href="css/blog-post.css" rel="stylesheet">
+  <link href="css/portfolio-item.css" rel="stylesheet">
+  
+</head>
+
+<body>
+  <!--cookie-->
+  <!-- <div class="cookie">
+          <div class="container">
+            <div class="clearfix">
+              <span>Please note this website requires cookies in order to function correctly, they do not store any specific information about you personally.</span>
+              <div class="f-right"><a href="#" class="button button-type-3 button-orange">Accept Cookies</a><a href="#" class="button button-type-3 button-grey-light">Read More</a></div>
+            </div>
+          </div>
+        </div>-->
+
+  <!-- Page Content -->
+
+  <%- partial("partial/_header") %>
+
+  <div class="container">
+
+    <%- yield %>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; <%= siteTitle %> 2018</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  
+  <!-- JS Libs & Plugins
+  ============================================ -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>

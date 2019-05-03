@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+  <!-- Google Web Fonts
+  ================================================== -->
+
+  <!-- Basic Page Needs
+  ================================================== -->
+
+  <title><%= pageTitle %> | <%= siteTitle %></title>
+  
+  <!--meta info-->
+  <meta charset="utf-8">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <%- partial("partial/_analytics") %>
+
+  <!-- Favicon Links
+  ============================================ -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Vendor CSS
+  ============================================ -->
+  <link href="vendor/normalize.css" rel="stylesheet">
+
+  <!-- CSS theme files
+  ============================================ -->
+  <link href="css/resume.css" rel="stylesheet">
+  
+  
+</head>
+
+<body>
+  <!--cookie-->
+  <!-- <div class="cookie">
+          <div class="container">
+            <div class="clearfix">
+              <span>Please note this website requires cookies in order to function correctly, they do not store any specific information about you personally.</span>
+              <div class="f-right"><a href="#" class="button button-type-3 button-orange">Accept Cookies</a><a href="#" class="button button-type-3 button-grey-light">Read More</a></div>
+            </div>
+          </div>
+        </div>-->
+
+  <!-- Page Content -->
+
+
+  <div class="container">
+
+    <%- yield %>
+
+  </div>
+  <!-- /.container -->
+
+
+  
+  <!-- JS Libs & Plugins
+  ============================================ -->
+
+  
+</body>
+</html>

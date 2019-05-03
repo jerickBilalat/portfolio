@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run harp",
+    "harp:compile": "harp compile",
+    "harp-start": "harp server --port 3000",
+    "harp": "npm run harp-compile && npm run harp-start",
+    "surge:deploy": "harp compile && surge www jerickbilalat.com"
+  },
+  "author": "",
+  "license": "ISC"
+}

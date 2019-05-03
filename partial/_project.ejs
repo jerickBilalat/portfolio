@@ -1,0 +1,52 @@
+<!-- Page Content -->
+<div class="container">
+    <!-- Portfolio Item Heading -->
+    <h1 class="my-4"><%= projectTitle %> <small><%= projectSubTitle %></small></h1>
+  
+    <!-- Portfolio Item Row -->
+    <div class="row">
+      <div class="col-md-12 col-lg-8">
+        <img class="img-fluid" src="<%= projectImgSrc %>" alt="<%= projectImgAltText %>" />
+      </div>
+  
+      <div class="col-md-12 col-lg-4">
+        <h3 class="my-3">Project Description</h3>
+        <p>
+          <%= projectDescription %> <a href="<%= projectDemoLink %>" target="_blank">Demo</a>
+        </p>
+      </div>
+      <div class="col-12">
+          <h3 class="my-3">Project Details</h3>
+          <ul>
+            <% for(var i=0; i< projectDetails.length; i++) {%>
+                <li><%= projectDetails[i] %></li>
+             <% } %>
+          </ul>
+        </div>
+    </div>
+    <!-- /.row -->
+  
+    <!-- Related Projects Row -->
+    <h3 class="my-4">Other Projects</h3>
+  
+    <div class="row">
+      
+      <% for(var i=0; i< projectList.length; i++) {%>
+        <% if(projectList[i].projectPageLink !== projectPageLink) {%>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <a href="<%= projectList[i].projectPageLink %>">
+              <img class="img-fluid" src="<%= projectList[i].projectImgSrc500x300 %>" alt="" />
+              <p><%= projectList[i].projectTitle %></p>
+            </a>
+          </div>
+
+          
+        <%}%>
+
+      <% } %>
+     
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+  

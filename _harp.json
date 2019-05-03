@@ -1,0 +1,138 @@
+{
+  "globals": {
+    "service": {
+      "analytics": "UA-136314893-1"
+    },
+    "siteTitle": "Jerick Bilalat Portfolio",
+    "siteAuthor": "Jerick Bilalat",
+    "authorTitle": "Web Developer",
+    "authorLinkedIn": "https://www.linkedin.com/in/jerickbilalat/",
+    "authorGithub": "https://github.com/jerickBilalat",
+    "authorWebsite": "http://jerickbilalat.com",
+    "authorSiteLink": "http://jerickbilalat.com",
+    "authorEmail": "jbilalat@gmail.com",
+    "authorProfile": "Web developer with passion for learning. Developed an eCommerce Website prototype, Product Management Web Application prototype, and Bootstrap 4 template. Launched a non-profit Website, and currently building eCommerce Website for a local small business. Motivated to constantly evolve my knowledge while contributing to a company specializing in Web Development.",
+    "baseURL": "http://jerickbilalat.com/",
+    "addressStreet": "8837 Carriage Hill Place",
+    "addressCity": "Savage, MN",
+    "phone": "+9526887721",
+    "experienceList": [
+      {
+        "jobTitle": "Freelance Web Developer",
+        "jobContact": "Herman Rott, Current Freelance Client (651) 983-3945",
+        "jobCompany": "Self-employed",
+        "jobWebsite": "http://jerickbilalat.com/",
+        "jobLocation": "Savage, MN",
+        "employmentDates": "2018 - Present",
+        "jobDescription": [
+          "Building websites for local businesses and non profit organization while expanding my skill sets.",
+          "Work with church leaders, business owners to plan site/project design and contents.",
+          "Currently building eCommerce website and Product Management Web Application for Minnesota Recreation. See Projects section for info.",
+          "Launched a non-profit website of a local church."
+        ]
+      },
+      {
+        "jobTitle": "Volunteer Web Developer and Media Coordinator",
+        "jobContact": "Efren Malong, NLCF Church Administrator (651) 500-5339",
+        "jobCompany": "NLCF Church",
+        "jobWebsite": "http://newlifeinchristfellowship.com/",
+        "jobLocation": "Arden, MN",
+        "employmentDates": "2015 - Present",
+        "jobDescription": [
+          "Create web contents and maintain website to engage local community.",
+          "Increased Church Facebook Page traffic and activity.",
+          "Received Certificate of Appreciation."
+        ]
+      }
+    ],
+    "projectList": [
+      {
+        "projectTitle": "Minnesota Recreation Website",
+        "projectLongTitle": "Minnesota Recreation eCommerce Website and Product Management Application",
+        "projectDescription": "Currently building Minnesota Recreation website to advertise and sell their products and sevices online.",
+        "projectImgSrc750x500": "images/750x500_minrec.jpg",
+        "projectImgSrc700x300": "images/700x300_minrec.jpg",
+        "projectImgSrc500x300": "images/500x300_minrec.jpg",
+        "projectImgAltText": "A picture of Minnesota Recreation eCommerce Website",
+        "projectPageLink": "portfolio_minnesota_recreation.html",
+        "projectDemoLink": "http://minnesotarec.surge.sh",
+        "projectDetails": [
+          "Project composes of static pages and the two seed prototype projects found below.",
+          "Continuously being develop along with the two prototypes made to show the idea behind the whole project and gather feedback from end users.",
+          "Most website's pages are static for SEO purposes and composes of single page eCommerce application for fast product browsing and checkout and single page admin panel for product CRUD operations.",
+          "See below prototype seed projects for more technical details."
+        ]
+      },
+      {
+        "projectTitle": "eCommerce Website",
+        "projectGitHub": "https://github.com/jerickBilalat/eCommerce_shopping_application",
+        "projectLongTitle": "eCommerce Single Page Application Prototype",
+        "projectDescription": "A single page application prototype of an eCommerse Website.",
+        "projectImgSrc750x500": "images/750x500_shop.jpg",
+        "projectImgSrc700x300": "images/700x300_shop.jpg",
+        "projectImgSrc500x300": "images/500x300_shop.jpg",
+        "projectImgAltText": "A picture of a prototype of eCommerce single page Website",
+        "projectPageLink": "portfolio_shop.html",
+        "projectDemoLink": "http://jrk-shop.surge.sh/",
+        "projectDetails": [
+          "Front End is built with React, React-Router, Redux state management, and a Bootstrap 3 HTML template from Themeforest.",
+          "RESTful API is built with Node/Express and MongoDB/Mongoose.",
+          "Axios library is used to help with fetching resources and Web LocalStorage API is used to build the guest car functionality.",
+          "Learned at lot about the react ecosystem and how web technologies are used together for fetching resources, client and server routing, and client state management."
+        ]
+      },
+      {
+        "projectTitle": "Product Management Web Application",
+        "projectHistory": "https://www.pivotaltracker.com/n/projects/2295931",
+        "projectGitHub": "https://github.com/jerickBilalat/product_management_app",
+        "projectLongTitle": "Product Management Web Application",
+        "projectDescription": "A prototype of a product managment web application with a main feature of creating and modifying a list of products.",
+        "projectImgSrc750x500": "images/750x500_admin.jpg",
+        "projectImgSrc700x300": "images/700x300_admin.jpg",
+        "projectImgSrc500x300": "images/500x300_admin.jpg",
+        "projectImgAltText": "A picture of a prototype of Admin Panel single page application",
+        "projectPageLink": "portfolio_admin.html",
+        "projectDemoLink": "http://shop-admin.surge.sh/",
+        "projectDetails": [
+          "Front End is built using React, React-Router, Redux State Management, and Material UI React Component library.",
+          "RESTful API is built with Node/Express and MongoDB/Mongoose.",
+          "Used Material UI React Component library for the sake of learning the popular libary, and the concept behind CSS-in-JS.",
+          "Applied Agile project management methology learned from Atlassian, creator of Jira, and using a Jira alternative, Pivotal Tracker, to manage the project."
+        ]
+      },
+      {
+        "projectTitle": "NLCF Church Website",
+        "projectGitHub": "https://github.com/jerickBilalat/nlcf-website-v3",
+        "projectLongTitle": "NLCF Church Website",
+        "projectDescription": "Multi page website of the NLCF Church built to engage members and local community by sharing their ministries and media.",
+        "projectImgSrc750x500": "images/750x500_nlcf.jpg",
+        "projectImgSrc700x300": "images/700x300_nlcf.jpg",
+        "projectImgSrc500x300": "images/500x300_nlcf.jpg",
+        "projectImgAltText": "A picture of NLCF Church website project",
+        "projectPageLink": "portfolio_nlcf.html",
+        "projectDemoLink": "http://www.newlifeinchristfellowship.com",
+        "projectDetails": [
+          "My very first development project to apply knowledge after learning the fundamentals of HTML, CSS, and JS, reusable CSS, responsive web design, User Experience, and SEO.",
+          "Used Bourbon Framework's Grid System, jQuery for most of the UI, and Harp JS to automate the building process.",
+          "Learned the importance of understanding who is the target audience in making effective websites or applications."
+        ]
+      },
+      {
+        "projectTitle": "Bootstrap 4 Template",
+        "projectGitHub": "https://github.com/jerickBilalat/harp-bootstrap-business-site-starter",
+        "projectLongTitle": "Bootstrap 4 HTML Template",
+        "projectDescription": "Bootstrap 4 HTML template for a business or portfolio websites.",
+        "projectImgSrc750x500": "images/750x500_bootstrap.jpg",
+        "projectImgSrc700x300": "images/700x300_bootstrap.jpg",
+        "projectImgSrc500x300": "images/500x300_bootstrap.jpg",
+        "projectImgAltText": "A picture of Bootstrap 4 HTML templates for a business and portfolio websites.",
+        "projectPageLink": "portfolio_bootstrap_4_templates.html",
+        "projectDemoLink": "https://codepen.io/jrkcode/full/LOgpzE",
+        "projectDetails": [
+          "Built project to gain proficiency on Bootstrap 4 framework and how to design an effective homepage or landing page of a website.",
+          "The template is responsive and can be use as a template for a business or portfolio website."
+        ]
+      }
+    ]
+  }
+}
