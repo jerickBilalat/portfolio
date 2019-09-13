@@ -95,6 +95,22 @@
       "The template is responsive and can be use as a template for a business or portfolio website."
     ]
   },
+  "portfolio_bball_app": {
+    "layout": "_project-layout",
+    "pageTitle": "Basketball League Web App",
+    "pageDescription": "Multi user web application for managing local basketball league games",
+    "projectTitle": "Basketball League Web App",
+    "projectSubTitle": "",
+    "projectDescription": "Multi user web application for managing local basketball league games",
+    "projectImgSrc": "images/750x500_admin.jpg",
+    "projectImgAltText": "A picture of Basketball League Web App.",
+    "projectPageLink": "portfolio_bball_app.html",
+    "projectDemoLink": "http://bballleague.surge.sh/",
+    "projectDetails": [
+      "Built with React and Material UI frameworks for the front end and Node JS for the back end API.",
+      "Implemented token based authentication where users can register and login to make authenticated requests such as creating game records."
+    ]
+  },
   "resume": {
     "pageTitle": "Resume",
     "layout": "_resume-layout",
