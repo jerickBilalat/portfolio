@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run harp",
     "harp:compile": "harp compile",
-    "harp-start": "harp server --port 3000",
+    "harp-start": "harp server --port 8080",
     "harp": "npm run harp-compile && npm run harp-start",
     "surge:deploy": "harp compile && surge www jerickbilalat.com"
   },

@@ -27,7 +27,7 @@
         "jobDescription": [
           "Building websites for local businesses and non profit organization while expanding my skill sets.",
           "Work with church leaders, business owners to plan site/project design and contents.",
-          "Creating eCommerce solutions for Minnesota Recreation website. See Projects section for info.",
+          "Creating eCommerce solutions for Twin Cities Recreational website. See Projects section for info.",
           "Launched a non-profit website of a local church."
         ]
       },
@@ -47,17 +47,17 @@
     ],
     "projectList": [
       {
-        "projectTitle": "Minnesota Recreation Website",
-        "projectLongTitle": "Minnesota Recreation Website",
-        "projectDescription": "Creating eCommerce solutions for Minnesota Recreation website to advertise and sell the company's products and sevices online.",
+        "projectTitle": "Twin Cities Recreational Website",
+        "projectLongTitle": "Twin Cities Recreational Website",
+        "projectDescription": "Building eCommerce solutions for Twin Cities Recreational to advertise and sell the company's products and sevices online.",
         "projectImgSrc750x500": "images/750x500_minrec.jpg",
         "projectImgSrc700x300": "images/700x300_minrec.jpg",
         "projectImgSrc500x300": "images/500x300_minrec.jpg",
-        "projectImgAltText": "A picture of Minnesota Recreation eCommerce Website",
+        "projectImgAltText": "A picture of Twin Cities Recreational eCommerce Website",
         "projectPageLink": "portfolio_minnesota_recreation.html",
-        "projectDemoLink": "http://minnesotarec.com",
+        "projectDemoLink": "http://tcrecreational.com",
         "projectDetails": [
-          "Creating eCommerce solutions for Minnesota Recreation website to advertise and sell the company's products and sevices online.",
+          "Creating eCommerce solutions for Twin Cities Recreational to advertise and sell the company's products and sevices online.",
           "Continuously being develop along with the two prototypes made to show the idea behind the whole project and gather feedback from end users."
         ]
       },
