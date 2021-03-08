@@ -8,7 +8,7 @@
     "harp:compile": "harp compile",
     "harp-start": "harp server --port 8080",
     "harp": "npm run harp-compile && npm run harp-start",
-    "surge:deploy": "harp compile && surge www jerickbilalat.com"
+    "surge:deploy": "harp compile && surge www jbilalat.com"
   },
   "author": "",
   "license": "ISC"

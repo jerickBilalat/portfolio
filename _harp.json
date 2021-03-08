@@ -8,8 +8,8 @@
     "authorTitle": "Web Developer",
     "authorLinkedIn": "https://www.linkedin.com/in/jerickbilalat/",
     "authorGithub": "https://github.com/jerickBilalat",
-    "authorWebsite": "http://jerickbilalat.com",
-    "authorSiteLink": "http://jerickbilalat.com",
+    "authorWebsite": "jbilalat.com",
+    "authorSiteLink": "http://jbilalat.com",
     "authorEmail": "jbilalat@gmail.com",
     "authorProfile": "Web developer with passion for learning. Developed an eCommerce Website prototype and an eCommerce Admin Panel prototype. Launched a non-profit website, local business website, and a Multi user web app. Motivated to constantly evolve my knowledge while contributing to a company specializing in Web Development.",
     "baseURL": "http://jerickbilalat.com/",
@@ -47,9 +47,9 @@
     ],
     "projectList": [
       {
-        "projectTitle": "Twin Cities Recreational Website",
+        "projectTitle": "Twin Cities Recreational Website @tcrecreational.com",
         "projectLongTitle": "Twin Cities Recreational Website",
-        "projectDescription": "Building eCommerce solutions for Twin Cities Recreational to advertise and sell the company's products and sevices online.",
+        "projectDescription": "Building eCommerce web solutions for Twin Cities Recreational using modern isomorphic JavaScript to advertise and sell the company's products and sevices online.",
         "projectImgSrc750x500": "images/750x500_minrec.jpg",
         "projectImgSrc700x300": "images/700x300_minrec.jpg",
         "projectImgSrc500x300": "images/500x300_minrec.jpg",
@@ -57,15 +57,35 @@
         "projectPageLink": "portfolio_minnesota_recreation.html",
         "projectDemoLink": "http://tcrecreational.com",
         "projectDetails": [
-          "Creating eCommerce solutions for Twin Cities Recreational to advertise and sell the company's products and sevices online.",
-          "Continuously being develop along with the two prototypes made to show the idea behind the whole project and gather feedback from end users."
+          "Build web pages and application using modern isomorphic JavaScript technologies using React/Redux and Bootstrap 4 on the frontend integrated with a RESTful API backend built with Node and MongoDB.",
+          "Build URL links that are compatible with Social Media sites and are used for strategic marketing.",
+          "Increased average sale leads generated from the website from 0 to 10 per month for the last 12 months."
         ]
       },
       {
-        "projectTitle": "eCommerce Website Prototype",
+        "projectTitle": "Financial Management Application @AgileSpending.com",
+        "projectGitHub": "https://github.com/jerickBilalat/bball-league-app",
+        "projectLongTitle": "Financial Management Application",
+        "projectDescription": "Financial management web application with features including user account, spending logging, and budget generator.",
+        "projectImgSrc750x500": "images/bball_750x500.jpg",
+        "projectImgSrc700x300": "images/bball_700x300.jpg",
+        "projectImgSrc500x300": "images/bball_500x300.jpg",
+        "projectImgAltText": "A picture of Financial Management Web App.",
+        "projectPageLink": "portfolio_bball_app.html",
+        "projectDemoLink": "http://bballleague.surge.sh/",
+        "projectDetails": [
+          "Use Agile project management in gathering requirements from future users(stakeholders), creating specifications, and developing application features such as user accounts, spending logs, and budget generator.",
+          "Designed and developed a single page application that requires high user interaction with elements such as forms and modals using React JS library.",
+          "Keep code base maintainable using reusable React JS components, hooks API, and Material UI Component Library.",
+          "Thoroughly tested source code with unit tests and end to end integration tests",
+          "Built Continuous Integration and Delivery pipeline using Github Actions and Heroku."
+        ]
+      },
+      {
+        "projectTitle": "eCommerce Website Starter",
         "projectGitHub": "https://github.com/jerickBilalat/eCommerce-website-starter",
         "projectLongTitle": "eCommerce Website Prototype",
-        "projectDescription": "A prototype of server side rendered single page eCommerce website built with React, Redux, React-Router 4, and Razzle.",
+        "projectDescription": "A starter template of a server side rendered single page eCommerce website built with React, Redux, React-Router 4, and Razzle.",
         "projectImgSrc750x500": "images/750x500_shop.jpg",
         "projectImgSrc700x300": "images/700x300_shop.jpg",
         "projectImgSrc500x300": "images/500x300_shop.jpg",
@@ -73,45 +93,8 @@
         "projectPageLink": "portfolio_shop.html",
         "projectDemoLink": "https://razzlessrshop.herokuapp.com/",
         "projectDetails": [
-          "Front End is built with React, React-Router, Redux state management, and a Bootstrap template from Themeforest.",
-          "It is an Isomorphic JavaScript application using Node JS and React server side rendering.",
-          "Consist of essential eCommerce website features which inlcudes Product listing, Shopping List, Guest Cart, and Checkout.",
-          "Learned at lot about the react ecosystem and how web technologies are used together for fetching resources, client and server routing, and client state management."
-        ]
-      },
-      {
-        "projectTitle": "eCommerce Adminstration Panel Prototype",
-        "projectHistory": "https://www.pivotaltracker.com/n/projects/2295931",
-        "projectGitHub": "https://github.com/jerickBilalat/eCommerce-admin-panel-spa",
-        "projectLongTitle": "eCommerce Adminstration Panel Prototype",
-        "projectDescription": "A prototype of an eCommerce Adminstration Panel with a main feature of creating and modifying a list of products.",
-        "projectImgSrc750x500": "images/750x500_admin.jpg",
-        "projectImgSrc700x300": "images/700x300_admin.jpg",
-        "projectImgSrc500x300": "images/500x300_admin.jpg",
-        "projectImgAltText": "A picture of a prototype of Admin Panel single page application",
-        "projectPageLink": "portfolio_admin.html",
-        "projectDemoLink": "http://shop-admin.surge.sh/",
-        "projectDetails": [
-          "Front End is built using React, React-Router, Redux State Management, and Material UI React Component library.",
-          "RESTful API is built with Node/Express and MongoDB/Mongoose.",
-          "Used Material UI React Component library for the sake of learning the popular libary, and the concept behind CSS-in-JS.",
-          "Applied Agile project management methology learned from Atlassian, creator of Jira, and using a Jira alternative, Pivotal Tracker, to manage the project."
-        ]
-      },
-      {
-        "projectTitle": "Basketball League Web App",
-        "projectGitHub": "https://github.com/jerickBilalat/bball-league-app",
-        "projectLongTitle": "Basketball League Web App",
-        "projectDescription": "Multi user web application for managing local basketball league games.",
-        "projectImgSrc750x500": "images/bball_750x500.jpg",
-        "projectImgSrc700x300": "images/bball_700x300.jpg",
-        "projectImgSrc500x300": "images/bball_500x300.jpg",
-        "projectImgAltText": "A picture of Basketball League Web App.",
-        "projectPageLink": "portfolio_bball_app.html",
-        "projectDemoLink": "http://bballleague.surge.sh/",
-        "projectDetails": [
-          "Built with React and Material UI frameworks for the front end and Node JS for the back end API.",
-          "Implemented token based authentication where users can register and login to make authenticated requests such as creating game records."
+          "Developed, published to Github, presented project to local web developer community, and use it as a framework for my current freelance client's website - TcRecretiaonal.com.",
+          "Created 4 essential eCommerce site features which includes Product listing, Shopping List, Guest Cart Checkout, and Product management via Admin Panel."
         ]
       },
       {
@@ -129,6 +112,22 @@
           "My very first development project to apply knowledge after learning the fundamentals of HTML, CSS, and JS, reusable CSS, responsive web design, User Experience, and SEO.",
           "Used Bourbon Framework's Grid System, jQuery for most of the UI, and Harp JS to automate the building process.",
           "Learned the importance of understanding target audience in making effective websites or applications."
+        ]
+      },
+      {
+        "projectTitle": "Basketball League Web App",
+        "projectGitHub": "https://github.com/jerickBilalat/bball-league-app",
+        "projectLongTitle": "Basketball League Web App",
+        "projectDescription": "Multi user web application for managing local basketball league games.",
+        "projectImgSrc750x500": "images/bball_750x500.jpg",
+        "projectImgSrc700x300": "images/bball_700x300.jpg",
+        "projectImgSrc500x300": "images/bball_500x300.jpg",
+        "projectImgAltText": "A picture of Basketball League Web App.",
+        "projectPageLink": "portfolio_bball_app.html",
+        "projectDemoLink": "http://bballleague.surge.sh/",
+        "projectDetails": [
+          "Built with React and Material UI frameworks for the front end and Node JS for the back end API.",
+          "Implemented token based authentication where users can register and login to make authenticated requests such as creating game records."
         ]
       }
     ]
