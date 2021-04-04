@@ -25,6 +25,25 @@
       "See below prototype seed projects for more technical details."
     ]
   },
+  "portfolio_sa": {
+    "layout": "_project-layout",
+    "pageTitle": "Agile Spending",
+    "pageDescription": "Agile Spending Website",
+    "projectTitle": "Financail Management Application",
+    "projectSubTitle": "",
+    "projectDescription": "Financial management web application with features including user account, spending logging, and budget generator.",
+    "projectImgSrc": "images/5x3_sa.png",
+    "projectImgAltText": "A picture of a prototype of Agile Spending app",
+    "projectPageLink": "portfolio_sa.html",
+    "projectDemoLink": "https://www.agilespending.com/",
+    "projectDetails": [
+      "Use Agile project management in gathering requirements from future users(stakeholders), creating specifications, and developing application features such as user accounts, spending logs, and budget generator.",
+      "Designed and developed a single page application that requires high user interaction with elements such as forms and modals using React JS library.",
+      "Keep code base maintainable using reusable React JS components, hooks API, and Material UI Component Library.",
+      "Thoroughly tested source code with unit tests and end to end integration tests",
+      "Built Continuous Integration pipeline using Github Actions and Heroku."
+    ]
+  },
   "portfolio_shop": {
     "layout": "_project-layout",
     "pageTitle": "eCommerce Website Prototype",
@@ -35,7 +54,7 @@
     "projectImgSrc": "images/750x500_shop.jpg",
     "projectImgAltText": "A picture of a prototype of eCommerce single page application",
     "projectPageLink": "portfolio_shop.html",
-    "projectDemoLink": "http://jrk-shop.surge.sh/",
+    "projectDemoLink": "https://shopstarter.herokuapp.com/",
     "projectDetails": [
       "Prototype includes essential features of an eCommerce site such as product list browsing, guest cart, and checkout.",
       "Front End is built with React, React-Router, Redux state management, and a Bootstrap 3 HTML template from Themeforest.",

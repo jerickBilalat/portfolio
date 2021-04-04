@@ -67,18 +67,18 @@
         "projectGitHub": "https://github.com/jerickBilalat/bball-league-app",
         "projectLongTitle": "Financial Management Application",
         "projectDescription": "Financial management web application with features including user account, spending logging, and budget generator.",
-        "projectImgSrc750x500": "images/bball_750x500.jpg",
-        "projectImgSrc700x300": "images/bball_700x300.jpg",
-        "projectImgSrc500x300": "images/bball_500x300.jpg",
+        "projectImgSrc750x500": "images/7x3_sa.png",
+        "projectImgSrc700x300": "images/7x3_sa.png",
+        "projectImgSrc500x300": "images/5x3_sa.png",
         "projectImgAltText": "A picture of Financial Management Web App.",
-        "projectPageLink": "portfolio_bball_app.html",
+        "projectPageLink": "portfolio_sa.html",
         "projectDemoLink": "http://bballleague.surge.sh/",
         "projectDetails": [
           "Use Agile project management in gathering requirements from future users(stakeholders), creating specifications, and developing application features such as user accounts, spending logs, and budget generator.",
           "Designed and developed a single page application that requires high user interaction with elements such as forms and modals using React JS library.",
           "Keep code base maintainable using reusable React JS components, hooks API, and Material UI Component Library.",
           "Thoroughly tested source code with unit tests and end to end integration tests",
-          "Built Continuous Integration and Delivery pipeline using Github Actions and Heroku."
+          "Built Continuous Integration pipeline using Github Actions and Heroku."
         ]
       },
       {
@@ -91,7 +91,7 @@
         "projectImgSrc500x300": "images/500x300_shop.jpg",
         "projectImgAltText": "A picture of a prototype of eCommerce single page Website",
         "projectPageLink": "portfolio_shop.html",
-        "projectDemoLink": "https://razzlessrshop.herokuapp.com/",
+        "projectDemoLink": "https://shopstarter.herokuapp.com/",
         "projectDetails": [
           "Developed, published to Github, presented project to local web developer community, and use it as a framework for my current freelance client's website - TcRecretiaonal.com.",
           "Created 4 essential eCommerce site features which includes Product listing, Shopping List, Guest Cart Checkout, and Product management via Admin Panel."
