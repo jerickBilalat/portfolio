@@ -18,6 +18,7 @@
     "projectImgAltText": "A picture of Twin Cities Recreational eCommerce Website",
     "projectPageLink": "portfolio_minnesota_recreation.html",
     "projectDemoLink": "http://tcrecreational.com",
+    "projectCodeLink": null,
     "projectDetails": [
       "Project composes of static pages and the two seed prototype projects found below.",
       "Continuously being develop along with the two prototypes made to show the idea behind the whole project and gather feedback from end users.",
@@ -36,6 +37,7 @@
     "projectImgAltText": "A picture of a prototype of Agile Spending app",
     "projectPageLink": "portfolio_sa.html",
     "projectDemoLink": "https://www.agilespending.com/",
+    "projectCodeLink": "https://github.com/jerickBilalat/sa-demo-app",
     "projectDetails": [
       "Use Agile project management in gathering requirements from future users(stakeholders), creating specifications, and developing application features such as user accounts, spending logs, and budget generator.",
       "Designed and developed a single page application that requires high user interaction with elements such as forms and modals using React JS library.",
@@ -55,6 +57,7 @@
     "projectImgAltText": "A picture of a prototype of eCommerce single page application",
     "projectPageLink": "portfolio_shop.html",
     "projectDemoLink": "https://shopstarter.herokuapp.com/",
+    "projectCodeLink": "https://github.com/jerickBilalat/eCommerce-website-starter",
     "projectDetails": [
       "Prototype includes essential features of an eCommerce site such as product list browsing, guest cart, and checkout.",
       "Front End is built with React, React-Router, Redux state management, and a Bootstrap 3 HTML template from Themeforest.",
@@ -74,6 +77,7 @@
     "projectImgAltText": "A picture of a prototype of Product Management Web Application single page application",
     "projectPageLink": "portfolio_admin.html",
     "projectDemoLink": "http://shop-admin.surge.sh/",
+    "projectCodeLink": "",
     "projectDetails": [
       "Front End is built using React, React-Router, Redux State Management, and Material UI React Component library.",
       "RESTful API is built with Node/Express and MongoDB/Mongoose.",
@@ -92,6 +96,7 @@
     "projectImgAltText": "A picture of NLCF Church website project",
     "projectPageLink": "portfolio_nlcf.html",
     "projectDemoLink": "http://www.newlifeinchristfellowship.com",
+    "projectCodeLink": null,
     "projectDetails": [
       "My very first web development project to apply knowledge after learning the fundamentals of HTML, CSS, JavaScript, reusable CSS, responsive web design, User Experience, and SEO.",
       "Used Bourbon Framework's Grid System, jQuery for most of the UI, and Harp JS to automate the build process.",
@@ -109,6 +114,7 @@
     "projectImgAltText": "A picture of Bootstrap 4 HTML templates for a business and portfolio websites.",
     "projectPageLink": "portfolio_bootstrap_4_templates.html",
     "projectDemoLink": "https://codepen.io/jrkcode/full/LOgpzE",
+    "projectCodeLink": null,
     "projectDetails": [
       "Built project to gain proficiency on Bootstrap 4 framework and how to design an effective homepage or landing page of a website.",
       "The template is responsive and can be use as a template for a business or portfolio website."
@@ -125,6 +131,7 @@
     "projectImgAltText": "A picture of Basketball League Web App.",
     "projectPageLink": "portfolio_bball_app.html",
     "projectDemoLink": "http://bballleague.surge.sh/",
+    "projectCodeLink": "https://github.com/jerickBilalat/bball-league-app",
     "projectDetails": [
       "Built with React and Material UI frameworks for the front end and Node JS for the back end API.",
       "Implemented token based authentication where users can register and login to make authenticated requests such as creating game records."

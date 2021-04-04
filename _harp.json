@@ -56,6 +56,7 @@
         "projectImgAltText": "A picture of Twin Cities Recreational eCommerce Website",
         "projectPageLink": "portfolio_minnesota_recreation.html",
         "projectDemoLink": "http://tcrecreational.com",
+        "projectCodeLink": null,
         "projectDetails": [
           "Build web pages and application using modern isomorphic JavaScript technologies using React/Redux and Bootstrap 4 on the frontend integrated with a RESTful API backend built with Node and MongoDB.",
           "Build URL links that are compatible with Social Media sites and are used for strategic marketing.",
@@ -73,6 +74,7 @@
         "projectImgAltText": "A picture of Financial Management Web App.",
         "projectPageLink": "portfolio_sa.html",
         "projectDemoLink": "http://bballleague.surge.sh/",
+        "projectCodeLink": "https://github.com/jerickBilalat/sa-demo-app",
         "projectDetails": [
           "Use Agile project management in gathering requirements from future users(stakeholders), creating specifications, and developing application features such as user accounts, spending logs, and budget generator.",
           "Designed and developed a single page application that requires high user interaction with elements such as forms and modals using React JS library.",
@@ -92,6 +94,7 @@
         "projectImgAltText": "A picture of a prototype of eCommerce single page Website",
         "projectPageLink": "portfolio_shop.html",
         "projectDemoLink": "https://shopstarter.herokuapp.com/",
+        "projectCodeLink": "https://github.com/jerickBilalat/eCommerce-website-starter",
         "projectDetails": [
           "Developed, published to Github, presented project to local web developer community, and use it as a framework for my current freelance client's website - TcRecretiaonal.com.",
           "Created 4 essential eCommerce site features which includes Product listing, Shopping List, Guest Cart Checkout, and Product management via Admin Panel."
@@ -108,6 +111,7 @@
         "projectImgAltText": "A picture of NLCF Church website project",
         "projectPageLink": "portfolio_nlcf.html",
         "projectDemoLink": "http://www.newlifeinchristfellowship.com",
+        "projectCodeLink": null,
         "projectDetails": [
           "My very first development project to apply knowledge after learning the fundamentals of HTML, CSS, and JS, reusable CSS, responsive web design, User Experience, and SEO.",
           "Used Bourbon Framework's Grid System, jQuery for most of the UI, and Harp JS to automate the building process.",
@@ -125,6 +129,7 @@
         "projectImgAltText": "A picture of Basketball League Web App.",
         "projectPageLink": "portfolio_bball_app.html",
         "projectDemoLink": "http://bballleague.surge.sh/",
+        "projectCodeLink": "https://github.com/jerickBilalat/bball-league-app",
         "projectDetails": [
           "Built with React and Material UI frameworks for the front end and Node JS for the back end API.",
           "Implemented token based authentication where users can register and login to make authenticated requests such as creating game records."

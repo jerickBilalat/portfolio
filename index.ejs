@@ -18,7 +18,10 @@
   <div class="col-lg-6 portfolio-item">
     <div class="card h-100">
       <a href="<%= projectList[i].projectPageLink %>"
-        ><img class="card-img-top" src="<%= projectList[i].projectImgSrc700x300 %>" alt=""
+        ><img
+          class="card-img-top"
+          src="<%= projectList[i].projectImgSrc700x300 %>"
+          alt=""
       /></a>
       <div class="card-body">
         <h4 class="card-title">
@@ -27,6 +30,13 @@
           >
         </h4>
         <p class="card-text"><%= projectList[i].projectDescription %></p>
+        <a href="<%= projectList[i].projectDemoLink %>" target="_blank">Demo</a>
+        <% if(projectList[i].projectCodeLink) {%>
+
+        <a href="<%= projectList[i].projectCodeLink %>" target="_blank">
+          | Code</a
+        >
+        <%}%>
       </div>
     </div>
   </div>
