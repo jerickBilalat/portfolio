@@ -149,5 +149,9 @@
   "contact": {
     "pageTitle": "Contact",
     "pageDescription": "Portfolio Website of Jerick Bilalat"
+  },
+  "blog": {
+    "pageTitle": "Programming Blog",
+    "pageDescription": "Programming Blog by Jerick Bilalat"
   }
 }
