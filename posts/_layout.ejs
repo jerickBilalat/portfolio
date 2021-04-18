@@ -52,7 +52,6 @@
 
 
   <%- partial("../partial/_header") %>
-
   <!-- Page Content -->
   <div class="container">
     <div class="row">
@@ -62,17 +61,7 @@
         <h1 class="mt-4"><%= pageTitle %></h1>
 
         <hr />
-
-        <!-- Date/Time -->
-        <p>Posted on <%= publishDate %></p>
-
-        <hr />
-
-        <!-- Preview Image -->
-        <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="" />
-
-        <hr />
-
+        
         <%- yield %>
 
         <hr />
@@ -81,7 +70,7 @@
       <!-- Sidebar Widgets Column -->
       <div class="col-md-4">
         <!-- Categories Widget -->
-        <div class="card my-4">
+        <!-- <div class="card my-4">
           <h5 class="card-header">Other Posts</h5>
           <div class="card-body">
             <div class="row">
@@ -101,8 +90,8 @@
               </div>
             </div>
           </div>
-        </div>
-
+        </div> -->
+        
         <!-- Side Widget -->
         <div class="card my-4">
           <h5 class="card-header">About Me</h5>
@@ -114,22 +103,15 @@
       </div>
     </div>
     <!-- /.row -->
+    
   </div>
-<!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; <%= siteTitle %> 2018</p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- JS Libs & Plugins
-  ============================================ -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="/vendor/jquery/jquery.min.js"></script>
-  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- /.container -->
+  <%- partial("../partial/_footer") %>
   
-</body>
-</html>/
+  <!-- JS Libs & Plugins
+    ============================================ -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>/

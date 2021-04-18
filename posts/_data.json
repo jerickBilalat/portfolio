@@ -1,7 +1,48 @@
 {
   "javascript_async_programming": {
-    "pageTitle": "JavaScript Async Programming",
-    "pageDescription": "New Life In Christ Fellowship in Arden Hills Minnesota is a Filipino American Church with a mission to know Christ and to make him known.",
+    "pageTitle": "How to deal with asynchronous code in JavaScript",
+    "pageDescription": "How to deal with Asyn code in JavaScript",
     "publishDate": "November 23, 2018"
+  },
+  "sharing_reusable_logic_in_react": {
+    "pageTitle": "Sharing reusable logic in React",
+    "pageDescription": "Sharing reusable logic in React",
+    "publishDate": "November 23, 2018"
+  },
+  "sharing_data_in_react": {
+    "pageTitle": "Sharing data in React",
+    "pageDescription": "Sharing data in React",
+    "publishDate": "November 23, 2018"
+  },
+  "list": {
+    "pageTitle": "Jerick's Programming Blog",
+    "pageDescription": "List of programming blogs by Jerick Bilalat",
+    "publishDate": "November 23, 2018",
+    "post_collection": [
+      {
+        "title": "How to deal with Asyn code in JavaScript",
+        "description": "We are going over the different ways of properly handle asynchronous code in JavaScript.",
+        "publishDate": "November 23, 2018",
+        "author": "Jerick Bilalat",
+        "path_to_post": "/posts/javascript_async_programming.html",
+        "img_src": ""
+      },
+      {
+        "title": "Sharing reusable logic in React",
+        "description": "How to share reusable logic in React",
+        "publishDate": "November 23, 2018",
+        "author": "Jerick Bilalat",
+        "path_to_post": "/posts/sharing_reusable_logic_in_react.html",
+        "img_src": ""
+      },
+      {
+        "title": "Sharing data in React",
+        "description": "How to share data between React componets",
+        "publishDate": "November 23, 2018",
+        "author": "Jerick Bilalat",
+        "path_to_post": "/posts/sharing_data_in_react.html",
+        "img_src": ""
+      }
+    ]
   }
 }
