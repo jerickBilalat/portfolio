@@ -17,7 +17,7 @@
   "list": {
     "pageTitle": "Jerick's Programming Blog",
     "pageDescription": "List of programming blogs by Jerick Bilalat",
-    "publishDate": "November 23, 2018",
+    "publishDate": null,
     "post_collection": [
       {
         "title": "How to deal with Asyn code in JavaScript",
