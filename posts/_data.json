@@ -14,7 +14,7 @@
     "pageDescription": "Sharing data in React",
     "publishDate": "November 23, 2018"
   },
-  "how_im_surving_js": {
+  "how_am_i_surving_js": {
     "pageTitle": "How I'm I surviving JavaScript",
     "pageDescription": "How I'm I surving the fast evolving JavaScript ecosystem as a software developer",
     "publishDate": "April 25, 2021"
@@ -25,11 +25,11 @@
     "publishDate": null,
     "post_collection": [
       {
-        "title": "How I'm I surviving JavaScript",
+        "title": "How am I surviving JavaScript",
         "description": "How I'm I surving the fast evolving JavaScript ecosystem as a software developer",
         "publishDate": "April 25, 2021",
         "author": "Jerick Bilalat",
-        "path_to_post": "/posts/how_im_surving_js.html",
+        "path_to_post": "/posts/how_am_i_surving_js.html",
         "img_src": ""
       }
     ]
